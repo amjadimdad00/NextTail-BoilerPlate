@@ -9,7 +9,6 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 import Logo from '../../public/svg/Logo.svg';
 
-
 export default function HomePage() {
   return (
     <main>
@@ -34,7 +33,7 @@ export default function HomePage() {
           </ButtonLink>
 
           <UnstyledLink
-            href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter'
+            href='https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Famjadimdad00%2FNextTail-BoilerPlate'
             className='mt-4'
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
