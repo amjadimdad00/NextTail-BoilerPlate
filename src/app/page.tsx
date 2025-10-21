@@ -47,7 +47,7 @@ export default function HomePage() {
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://github.com/amjadimdad00'>
+            <UnderlineLink href='https://linkedin.com/in/amjadimdad'>
               Amjad Imdad
             </UnderlineLink>
           </footer>

@@ -41,7 +41,7 @@ export default function ComponentPage() {
         <div
           className={clsx(
             'layout min-h-screen py-20',
-            mode === 'dark' ? 'text-white' : 'text-black'
+            mode === 'dark' ? 'text-white' : 'text-black',
           )}
         >
           <h1>Built-in Components</h1>
@@ -76,7 +76,7 @@ export default function ComponentPage() {
                     mode === 'dark'
                       ? 'bg-dark border-gray-600'
                       : 'border-gray-300 bg-white',
-                    'focus:border-primary-400 focus:ring-primary-400 focus:outline-hidden focus:ring-3'
+                    'focus:border-primary-400 focus:ring-primary-400 focus:outline-hidden focus:ring-3',
                   )}
                   onChange={(e) => setColor(e.target.value as Color)}
                 >
@@ -86,7 +86,7 @@ export default function ComponentPage() {
                     </option>
                   ))}
                 </select>
-                <ButtonLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/src/styles/colors.css'>
+                <ButtonLink href='https://github.com/amjadimdad00/NextTail-BoilerPlate/blob/main/src/styles/colors.css'>
                   Check list of colors
                 </ButtonLink>
               </div>
@@ -134,7 +134,7 @@ export default function ComponentPage() {
               </p>
               <div className='space-x-2'>
                 <UnstyledLink href='/'>Internal Links</UnstyledLink>
-                <UnstyledLink href='https://theodorusclarence.com'>
+                <UnstyledLink href='https://amjadimdad00.vercel.app'>
                   Outside Links
                 </UnstyledLink>
               </div>
@@ -147,7 +147,7 @@ export default function ComponentPage() {
               </p>
               <div className='space-x-2'>
                 <PrimaryLink href='/'>Internal Links</PrimaryLink>
-                <PrimaryLink href='https://theodorusclarence.com'>
+                <PrimaryLink href='https://amjadimdad00.vercel.app'>
                   Outside Links
                 </PrimaryLink>
               </div>
@@ -160,7 +160,7 @@ export default function ComponentPage() {
               </p>
               <div className='space-x-2'>
                 <UnderlineLink href='/'>Internal Links</UnderlineLink>
-                <UnderlineLink href='https://theodorusclarence.com'>
+                <UnderlineLink href='https://amjadimdad00.vercel.app'>
                   Outside Links
                 </UnderlineLink>
               </div>
@@ -201,30 +201,33 @@ export default function ComponentPage() {
               <div className='flex flex-wrap gap-2'>
                 <ButtonLink
                   variant='primary'
-                  href='https://theodorusclarence.com'
+                  href='https://amjadimdad00.vercel.app'
                 >
                   Primary Variant
                 </ButtonLink>
                 <ButtonLink
                   variant='outline'
                   isDarkBg={mode === 'dark'}
-                  href='https://theodorusclarence.com'
+                  href='https://amjadimdad00.vercel.app'
                 >
                   Outline Variant
                 </ButtonLink>
                 <ButtonLink
                   variant='ghost'
                   isDarkBg={mode === 'dark'}
-                  href='https://theodorusclarence.com'
+                  href='https://amjadimdad00.vercel.app'
                 >
                   Ghost Variant
                 </ButtonLink>
-                <ButtonLink variant='dark' href='https://theodorusclarence.com'>
+                <ButtonLink
+                  variant='dark'
+                  href='https://amjadimdad00.vercel.app'
+                >
                   Dark Variant
                 </ButtonLink>
                 <ButtonLink
                   variant='light'
-                  href='https://theodorusclarence.com'
+                  href='https://amjadimdad00.vercel.app'
                 >
                   Light Variant
                 </ButtonLink>
